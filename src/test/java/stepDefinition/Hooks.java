@@ -7,7 +7,8 @@ public class Hooks {
 	@Before("@MobileTest")  //!!!!! ---  @Before imported from cucumber
 	public void beforeMobileValidation(){
 		System.out.print("Hook before MobileTest");
-		
+		System.out.print("!!!!");
+		System.out.println("!!!!");
 	}
 	
 	@After ("@MobileTest") //!!!!! ---  @After imported from cucumber
